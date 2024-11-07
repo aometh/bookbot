@@ -9,6 +9,7 @@ def main():
     print(f"{num_words} words found in the document")
     for c in character_report:
         print(f"The {c['letter']} character was found {c['count']} times")
+    print("---End Report---")
 
 def count(text):
     words = text.split() 
